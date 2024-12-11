@@ -19,3 +19,8 @@ You can obviously remove any domains you want to keep :)
   Windows: Run ipconfig /flushdns in Command Prompt.  
   Mac: Run sudo dscacheutil -flushcache and sudo killall -HUP mDNSResponder in Terminal.  
   Linux: Run sudo systemd-resolve --flush-caches or restart your computer.  
+
+## Devices
+- Mac/Linux: `/etc/hosts`
+- Windows: `C:\Windows\System32\drivers\etc\hosts`
+- iOS: Use DNS blocker and use this host list as your domains. Eg: Use NextDNS :)
